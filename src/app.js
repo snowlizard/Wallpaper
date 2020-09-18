@@ -5,5 +5,5 @@ import './styles/styles.scss';
 
 
 
-ReactDOM.render( <Router /> , document.getElementById('app'));
+ReactDOM.render( <p>Hello world</p> , document.getElementById('app'));
 

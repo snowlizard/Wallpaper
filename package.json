@@ -1,5 +1,5 @@
 {
-  "name": "Maira&Me Wallpaper",
+  "name": "wallpaper",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Julian Gonzalez",
@@ -10,6 +10,15 @@
     "dev-server": "webpack-dev-server"
   },
   "dependencies": {
+    "core-js": "^3.6.5",
+    "node-sass": "^4.14.1",
+    "normalize.css": "^8.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
     "@babel/cli": "^7.10.1",
     "@babel/core": "^7.10.0",
     "@babel/plugin-transform-runtime": "^7.10.1",
@@ -17,17 +26,10 @@
     "@babel/preset-react": "^7.10.1",
     "babel-loader": "^8.1.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
-    "core-js": "^3.6.5",
     "css-loader": "^3.5.3",
-    "live-server": "^1.2.1",
-    "node-sass": "^4.14.1",
-    "normalize.css": "^8.0.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0",
     "sass-loader": "^6.0.7",
     "style-loader": "^1.2.1",
-    "validator": "^13.0.0",
+    "live-server": "^1.2.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0"
