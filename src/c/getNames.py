@@ -13,7 +13,7 @@ textDump = open('./src/c/image_names.txt', "w+")
 textDump.write('[')
 
 for name in onlyfiles:
-    textDump.write('\'' + '../images/' + name + '\',' +'\n')
+    textDump.write('\'' + './images/' + name + '\',' +'\n')
 
 textDump.write(']')
 textDump.close()
